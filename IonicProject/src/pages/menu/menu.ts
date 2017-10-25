@@ -1,6 +1,10 @@
 import { InicioPage } from './../inicio/inicio';
 import {TendenciasPage } from './../tendencias/tendencias';
 import {SuscripcionesPage} from './../suscripciones/suscripciones';
+import {MiCanalPage} from './../mi-canal/mi-canal';
+import {MisListasPage} from './../mis-listas/mis-listas'
+import {ConfigUsuarioPage} from './../config-usuario/config-usuario';
+import {EstadisticasPage} from './../estadisticas/estadisticas';
 import { TabsPage } from './../tabs/tabs';
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, Nav } from 'ionic-angular';
@@ -27,8 +31,10 @@ export class MenuPage {
  
   pages: PageInterface[] = [
     { title: 'Inicio', pageName: 'TabsPage', tabComponent: 'InicioPage', index: 0, icon: 'home' },
-    { title: 'Tendencias', pageName: 'TabsPage', tabComponent: 'TendenciasPage', index: 1, icon: 'contacts' },
-    { title: 'Suscripciones', pageName: 'TabsPage',tabComponent: 'SuscripcionesPage',index: 2, icon: 'shuffle' }
+    { title: 'Configuración de Usuario', pageName: 'ConfigUsuarioPage', index: 1, icon: 'contact' },
+    { title: 'Mi Canal', pageName: 'MiCanalPage', index: 2, icon: 'play' },
+    { title: 'Mis Listas', pageName: 'MisListasPage',index: 3, icon: 'star-half' },
+    { title: 'Estadisticas', pageName: 'EstadisticasPage',index: 4, icon: 'stats' }
   ];
  
   constructor(public navCtrl: NavController) { }

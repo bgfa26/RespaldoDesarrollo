@@ -12,7 +12,6 @@ export class TabsPage {
   InicioRoot: any = 'InicioPage';
   TendenciasRoot: any = 'TendenciasPage';
   SuscripcionesRoot: any = 'SuscripcionesPage';
-  RecomendadosRoot: any = 'RecomendadosPage';
   myIndex: number;
  
   constructor(navParams: NavParams) {
