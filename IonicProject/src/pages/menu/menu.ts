@@ -1,7 +1,6 @@
 import { InicioPage } from './../inicio/inicio';
 import {TendenciasPage } from './../tendencias/tendencias';
 import {SuscripcionesPage} from './../suscripciones/suscripciones';
-import {RecomendadosPage} from './../recomendados/recomendados';
 import { TabsPage } from './../tabs/tabs';
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, Nav } from 'ionic-angular';
@@ -29,8 +28,7 @@ export class MenuPage {
   pages: PageInterface[] = [
     { title: 'Inicio', pageName: 'TabsPage', tabComponent: 'InicioPage', index: 0, icon: 'home' },
     { title: 'Tendencias', pageName: 'TabsPage', tabComponent: 'TendenciasPage', index: 1, icon: 'contacts' },
-    { title: 'Suscripciones', pageName: 'TabsPage',tabComponent: 'SuscripcionesPage',index: 2, icon: 'shuffle' },
-    { title: 'Recomendados', pageName: 'TabsPage',tabComponent: 'RecomendadosPage',index: 3, icon: 'shuffle' }
+    { title: 'Suscripciones', pageName: 'TabsPage',tabComponent: 'SuscripcionesPage',index: 2, icon: 'shuffle' }
   ];
  
   constructor(public navCtrl: NavController) { }
