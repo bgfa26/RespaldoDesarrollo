@@ -31,6 +31,7 @@ export class MenuPage {
  
   pages: PageInterface[] = [
     { title: 'Inicio', pageName: 'TabsPage', tabComponent: 'InicioPage', index: 0, icon: 'home' },
+    //Aqui van los links de las paginas principales de los demas grupos
     { title: 'Configuración de Usuario', pageName: 'UsuarioPage', icon: 'contact' },
     { title: 'Mi Canal', pageName: 'CanalPage', icon: 'play' },
     { title: 'Mis Listas', pageName: 'ListasPage', icon: 'star-half' },
