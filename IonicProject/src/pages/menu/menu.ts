@@ -1,6 +1,10 @@
 import { InicioPage } from './../inicio/inicio';
 import {TendenciasPage } from './../tendencias/tendencias';
 import {SuscripcionesPage} from './../suscripciones/suscripciones';
+import {UsuarioPage} from './../usuario/usuario';
+import {CanalPage} from './../canal/canal';
+import {ListasPage} from './../listas/listas';
+import {EstadisticaPage} from './../estadistica/estadistica';
 import { TabsPage } from './../tabs/tabs';
 import { Component, ViewChild } from '@angular/core';
 import { IonicPage, NavController, Nav } from 'ionic-angular';
@@ -27,10 +31,10 @@ export class MenuPage {
  
   pages: PageInterface[] = [
     { title: 'Inicio', pageName: 'TabsPage', tabComponent: 'InicioPage', index: 0, icon: 'home' },
-    { title: 'Configuración de Usuario', pageName: '', index: 1, icon: 'contact' },
-    { title: 'Mi Canal', pageName: '', index: 2, icon: 'play' },
-    { title: 'Mis Listas', pageName: '',index: 3, icon: 'star-half' },
-    { title: 'Estadisticas', pageName: '',index: 4, icon: 'stats' }
+    { title: 'Configuración de Usuario', pageName: 'UsuarioPage', icon: 'contact' },
+    { title: 'Mi Canal', pageName: 'CanalPage', icon: 'play' },
+    { title: 'Mis Listas', pageName: 'ListasPage', icon: 'star-half' },
+    { title: 'Estadisticas', pageName: 'EstadisticaPage', icon: 'stats' }
   ];
  
   constructor(public navCtrl: NavController) { }
@@ -59,14 +63,14 @@ export class MenuPage {
  
     if (childNav) {
       if (childNav.getSelected() && childNav.getSelected().root === page.tabComponent) {
-        return 'primary';
+        return 'secondary';
       }
       return;
     }
  
     // Fallback needed when there is no active childnav (tabs not active)
     if (this.nav.getActive() && this.nav.getActive().name === page.pageName) {
-      return 'primary';
+      return 'secondary';
     }
     return;
   }
