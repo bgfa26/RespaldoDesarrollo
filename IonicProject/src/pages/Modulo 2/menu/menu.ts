@@ -32,10 +32,10 @@ export class MenuPage {
   pages: PageInterface[] = [
     { title: 'Inicio', pageName: 'TabsPage', tabComponent: 'InicioPage', index: 0, icon: 'home' },
     //Aqui van los links de las paginas principales de los demas grupos
-    { title: 'Configuración de Usuario', pageName: 'UsuarioPage', icon: 'contact' },
-    { title: 'Mi Canal', pageName: 'CanalPage', icon: 'play' },
-    { title: 'Mis Listas', pageName: 'ListasPage', icon: 'star-half' },
-    { title: 'Estadisticas', pageName: 'EstadisticaPage', icon: 'stats' }
+    //{ title: 'Configuración de usuario', pageName: 'UsuarioPage', icon: 'contact' },
+    //{ title: 'Mi canal', pageName: 'CanalPage', icon: 'play' },
+    { title: 'Mis listas', pageName: 'ListasPage', icon: 'star-half' },
+    { title: 'Estadísticas', pageName: 'EstadisticaPage', icon: 'stats' }
   ];
  
   constructor(public navCtrl: NavController) { }
@@ -74,6 +74,17 @@ export class MenuPage {
       return 'secondary';
     }
     return;
+  }
+
+  MyChannelSubmenu: boolean = false;
+  SettingsSubmenu: boolean = false;
+  MyChannelItemHandler(): void {
+    this.MyChannelSubmenu = !this.MyChannelSubmenu;
+    this.SettingsSubmenu = false;
+  }
+  SettingsItemHandler(): void {
+    this.SettingsSubmenu = !this.SettingsSubmenu;
+    this.MyChannelSubmenu = false;
   }
  
 }
