@@ -1,5 +1,8 @@
 package example;
 
+import java.awt.*;
+import java.io.InputStream;
+
 /**
  * Created by estefania on 10/11/2017.
  */
@@ -8,17 +11,12 @@ public class Video {
     private int id;
     private String nombre;
     private String fecha;
-    private String visitas;
+    private int visitas;
+    private String descripcion;
+    private InputStream imagen;
+    private String url;
 
     public Video() {
-
-    }
-
-    public Video(int id, String nombre, String fecha, String visitas) {
-        this.id = id;
-        this.nombre = nombre;
-        this.fecha = fecha;
-        this.visitas = visitas;
     }
 
     public int getId() {
@@ -45,11 +43,35 @@ public class Video {
         this.fecha = fecha;
     }
 
-    public String getVisitas() {
+    public int getVisitas() {
         return visitas;
     }
 
-    public void setVisitas(String visitas) {
+    public void setVisitas(int visitas) {
         this.visitas = visitas;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public InputStream getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(InputStream imagen) {
+        this.imagen = imagen;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
     }
 }

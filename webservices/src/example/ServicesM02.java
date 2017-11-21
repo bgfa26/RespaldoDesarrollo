@@ -62,9 +62,101 @@ public class ServicesM02 {
 
     }
 
+    @GET
+
+    @Path("/ObtenerPreferencias")
+
+    @Produces("application/json")
+    /**
+     * @Param id
+     * Devuelve todos los Videos en funcion de las preferencias dado un id
+     */
+    public String obtenerPreferencia (@QueryParam("id")  int idUsuario
+    ){
+
+        String query =  "SELECT video.vid_id,video.vid_titulo,video.vid_descripcion,video.vid_imagen,video.vid_url,video.vid_fecha,video.vid_visitas " +
+                        " FROM video,usuario,categoria,preferencia,video_cat" +
+                        " WHERE video.vid_id=video_cat.idvid and categoria.cat_id=video_cat.idcat\n" +
+                        " AND   usuario.usu_id=preferencia.id_usu and categoria.cat_id=preferencia.id_cat\n" +
+                        " AND  video_cat.idcat=preferencia.id_cat and usuario.usu_id='"+idUsuario+"'";
 
 
 
+        try{
+            Connection conn = conectarADb();
+            //Lista del objeto video para almacenar todos los videos a cargar
+            ArrayList<Video> listaVideos= new ArrayList<>();
+            Statement st = conn.createStatement();
+            ResultSet rs =  st.executeQuery(query);
+
+            while(rs.next()){
+                Video resultado = new Video();
+                resultado.setId(rs.getInt("vid_id"));
+                resultado.setNombre(rs.getString("vid_titulo"));
+                resultado.setDescripcion(rs.getString("vid_descripcion"));
+                resultado.setImagen(rs.getBinaryStream("vid_imagen"));
+                resultado.setFecha(rs.getString("vid_fecha"));
+                resultado.setVisitas(rs.getInt("vid_visitas"));
+
+                listaVideos.add(resultado);
+
+            }
+
+            return gson.toJson(listaVideos);
+
+        } catch (Exception e) {
+
+            return e.getMessage();
+
+        }
+
+
+    }
+
+    @GET
+
+    @Path("/MasVistos")
+
+    @Produces("application/json")
+    /**
+     * Devuelve el listado de los videos mas reproducidos
+     */
+    public String obtenerMasVistos ()
+    {
+
+        String query =  "SELECT * FROM VIDEO ORDER BY VIDEO.VID_VISITAS DESC";
+
+
+        try{
+            Connection conn = conectarADb();
+            //Lista del objeto video para almacenar todos los videos a cargar
+            ArrayList<Video> listaVideos= new ArrayList<>();
+            Statement st = conn.createStatement();
+            ResultSet rs =  st.executeQuery(query);
+
+            while(rs.next()){
+                Video resultado = new Video();
+                resultado.setId(rs.getInt("vid_id"));
+                resultado.setNombre(rs.getString("vid_titulo"));
+                resultado.setDescripcion(rs.getString("vid_descripcion"));
+                resultado.setImagen(rs.getBinaryStream("vid_imagen"));
+                resultado.setFecha(rs.getString("vid_fecha"));
+                resultado.setVisitas(rs.getInt("vid_visitas"));
+
+                listaVideos.add(resultado);
+
+            }
+
+            return gson.toJson(listaVideos);
+
+        } catch (Exception e) {
+
+            return e.getMessage();
+
+        }
+
+
+    }
 
 
     /**
@@ -98,6 +190,36 @@ public class ServicesM02 {
         return conn;
     }
 
+
+    /**
+     * Metodo que dado un nombre de usuario devuelve
+     * la id correspondiente
+     * @param user
+     * @return
+     */
+    public int obtenerUserId( String user){
+
+
+        String query = "SELECT usu_id FROM  usuario WHERE ('"+user+"'=usu_login')";
+
+        Usuario resultado = new Usuario();
+
+        try{
+            Connection conn = conectarADb();
+            Statement    st = conn.createStatement();
+            ResultSet    rs =  st.executeQuery(query);
+
+            while(rs.next()){
+
+                resultado.set_id_user(rs.getInt("usu_id"));
+            }
+
+            return resultado.get_id_user();
+
+        } catch (Exception e) {
+            return 0;
+        }
+    }
 
 
 
