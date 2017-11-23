@@ -15,8 +15,17 @@ public class Video {
     private String descripcion;
     private InputStream imagen;
     private String url;
+    private String _valorCategoria;
 
     public Video() {
+    }
+
+    public String get_valorCategoria() {
+        return _valorCategoria;
+    }
+
+    public void set_valorCategoria(String _valorCategoria) {
+        this._valorCategoria = _valorCategoria;
     }
 
     public int getId() {

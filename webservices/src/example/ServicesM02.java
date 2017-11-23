@@ -165,19 +165,20 @@ public class ServicesM02 {
 
     @Produces("application/json")
     /**
-     * Devuelve el listado de los videos mas reproducidos
+     * Realiza Busquedas por titulo y por categoria (por ahora)
+     * @param parametroBusqueda
      */
-    public String busquedaVideos ()
+    public String busquedaVideos (@QueryParam("parametroBusqueda")  String parametroBusqueda)
     {
-        //Consulta por titulo
+        //Consulta por titulo y por Categoria
         String query  = "SELECT  video.*,categoria.cat_valor " +
                         "FROM video, categoria, video_cat " +
-                        "WHERE video.vid_titulo LIKE '%hola%'  " +
+                        "WHERE video.vid_titulo LIKE '%"+parametroBusqueda+"%'  " +
                         "AND video.vid_id=video_cat.idvid AND categoria.cat_id=video_cat.idcat " +
                         "UNION " +
                         "SELECT video.*,categoria.cat_valor " +
                         "FROM video,categoria,video_cat " +
-                        "WHERE categoria.cat_valor LIKE '%armas%'  " +
+                        "WHERE categoria.cat_valor LIKE '%"+parametroBusqueda+"%'  " +
                         "AND video.vid_id=video_cat.idvid AND categoria.cat_id=video_cat.idcat";
 
 
@@ -197,7 +198,7 @@ public class ServicesM02 {
                     resultado.setImagen(rs.getBinaryStream("vid_imagen"));
                     resultado.setFecha(rs.getString("vid_fecha"));
                     resultado.setVisitas(rs.getInt("vid_visitas"));
-
+                    resultado.set_valorCategoria(rs.getString("cat_valor"));
                     listaVideos.add(resultado);
 
                 }
