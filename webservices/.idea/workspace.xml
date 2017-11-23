@@ -26,19 +26,29 @@
       <file leaf-file-name="ServicesM02.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-493">
-              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="188" column="48" lean-forward="false" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
                 <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
                 <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-                <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-                <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-                <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-                <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-                <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-                <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
+                <marker date="1511394618831" expanded="true" signature="604:623" ph="select * fro... video" />
+                <marker date="1511394618831" expanded="true" signature="1611:2098" ph="select * fro... video" />
+                <marker date="1511394618831" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
+                <marker date="1511394618831" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
+                <marker date="1511394618831" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
+                <marker date="1511394618831" expanded="true" signature="4577:4578" ph="SELECT * FRO... VIDEO" />
+                <marker date="1511394618831" expanded="true" signature="4578:5170" ph="SELECT video... " />
+                <marker date="1511394618831" expanded="true" signature="4584:4612" ph="select video... " />
+                <marker date="1511394618831" expanded="true" signature="4584:4674" ph="select video... video" />
+                <marker date="1511394618831" expanded="true" signature="4584:4840" ph="select video... video" />
+                <marker date="1511394618831" expanded="true" signature="4584:4841" ph="select video... video" />
+                <marker date="1511394618831" expanded="true" signature="4584:4871" ph="select video... video" />
+                <marker date="1511394618831" expanded="true" signature="4584:5170" ph="select video... " />
+                <marker date="1511394618831" expanded="true" signature="4906:5170" ph="SELECT video... video" />
+                <marker date="1511394618831" expanded="true" signature="4912:5170" ph="select video... video" />
+                <marker date="1511394618831" expanded="true" signature="7451:7508" ph="SELECT * FRO... M05_obteneridactividades" />
               </folding>
             </state>
           </provider>
@@ -49,7 +59,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
               <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,36 +71,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-              <folding>
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
-                <element signature="e#1179#1180#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1301#1302#0" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-                <element signature="e#1383#1384#0" expanded="true" />
-                <element signature="e#1417#1418#0" expanded="true" />
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
-                <element signature="e#1556#1557#0" expanded="true" />
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1690#1691#0" expanded="true" />
-                <element signature="e#1728#1729#0" expanded="true" />
-                <element signature="e#1763#1764#0" expanded="true" />
-                <element signature="e#1818#1819#0" expanded="true" />
-                <element signature="e#1866#1867#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,7 +81,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,6 +151,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -199,7 +185,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -724,16 +709,16 @@
       <workItem from="1511227822478" duration="4960000" />
       <workItem from="1511270616600" duration="560000" />
       <workItem from="1511292218143" duration="3022000" />
-      <workItem from="1511307977918" duration="157000" />
+      <workItem from="1511307977918" duration="2008000" />
+      <workItem from="1511388840716" duration="5701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15517000" />
+    <option name="totallyTimeSpent" value="23069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -749,14 +734,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25980392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16490166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16944024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -764,7 +750,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -798,7 +783,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -806,265 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/peincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="64" selection-start-column="3" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-            <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-            <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Conexion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/peincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-            <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-            <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Conexion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/peincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="96" column="16" lean-forward="false" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-            <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-            <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/peincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="147" column="0" lean-forward="false" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-            <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-            <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1073,190 +801,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="147" column="0" lean-forward="true" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="188" column="48" lean-forward="false" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
             <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
             <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-            <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-            <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/peincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-            <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-            <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/peincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-            <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-            <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="1974" column="0" lean-forward="false" selection-start-line="1974" selection-start-column="0" selection-end-line="1974" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/peincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1179#1180#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1383#1384#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1763#1764#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Conexion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ServicesM02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#obtenerVideo#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#conectarADb#0;class#ServicesM02#0" expanded="false" />
-            <element signature="method#obtenerUserId#0;class#ServicesM02#0" expanded="false" />
-            <marker date="1511294753444" expanded="true" signature="604:623" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2098" ph="select * fro... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
-            <marker date="1511294753444" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
-            <marker date="1511294753444" expanded="true" signature="5602:5659" ph="SELECT * FRO... M05_obteneridactividades" />
+            <marker date="1511394618831" expanded="true" signature="604:623" ph="select * fro... video" />
+            <marker date="1511394618831" expanded="true" signature="1611:2098" ph="select * fro... video" />
+            <marker date="1511394618831" expanded="true" signature="1611:2110" ph="SELECT * FRO... video" />
+            <marker date="1511394618831" expanded="true" signature="1611:2133" ph="SELECT * FRO... video" />
+            <marker date="1511394618831" expanded="true" signature="3317:3368" ph="SELECT * FRO... VIDEO" />
+            <marker date="1511394618831" expanded="true" signature="4577:4578" ph="SELECT * FRO... VIDEO" />
+            <marker date="1511394618831" expanded="true" signature="4578:5170" ph="SELECT video... " />
+            <marker date="1511394618831" expanded="true" signature="4584:4612" ph="select video... " />
+            <marker date="1511394618831" expanded="true" signature="4584:4674" ph="select video... video" />
+            <marker date="1511394618831" expanded="true" signature="4584:4840" ph="select video... video" />
+            <marker date="1511394618831" expanded="true" signature="4584:4841" ph="select video... video" />
+            <marker date="1511394618831" expanded="true" signature="4584:4871" ph="select video... video" />
+            <marker date="1511394618831" expanded="true" signature="4584:5170" ph="select video... " />
+            <marker date="1511394618831" expanded="true" signature="4906:5170" ph="SELECT video... video" />
+            <marker date="1511394618831" expanded="true" signature="4912:5170" ph="select video... video" />
+            <marker date="1511394618831" expanded="true" signature="7451:7508" ph="SELECT * FRO... M05_obteneridactividades" />
           </folding>
         </state>
       </provider>

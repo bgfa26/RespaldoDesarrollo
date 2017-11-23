@@ -159,6 +159,62 @@ public class ServicesM02 {
     }
 
 
+    @GET
+
+    @Path("/Busqueda")
+
+    @Produces("application/json")
+    /**
+     * Devuelve el listado de los videos mas reproducidos
+     */
+    public String busquedaVideos ()
+    {
+        //Consulta por titulo
+        String query  = "SELECT  video.*,categoria.cat_valor " +
+                        "FROM video, categoria, video_cat " +
+                        "WHERE video.vid_titulo LIKE '%hola%'  " +
+                        "AND video.vid_id=video_cat.idvid AND categoria.cat_id=video_cat.idcat " +
+                        "UNION " +
+                        "SELECT video.*,categoria.cat_valor " +
+                        "FROM video,categoria,video_cat " +
+                        "WHERE categoria.cat_valor LIKE '%armas%'  " +
+                        "AND video.vid_id=video_cat.idvid AND categoria.cat_id=video_cat.idcat";
+
+
+        try{
+            Connection conn = conectarADb();
+            //Lista del objeto video para almacenar todos los videos a cargar
+            ArrayList<Video> listaVideos= new ArrayList<>();
+            Statement st = conn.createStatement();
+            ResultSet rs = st.executeQuery(query);
+
+
+                while (rs.next() ) {
+                    Video resultado = new Video();
+                    resultado.setId(rs.getInt("vid_id"));
+                    resultado.setNombre(rs.getString("vid_titulo"));
+                    resultado.setDescripcion(rs.getString("vid_descripcion"));
+                    resultado.setImagen(rs.getBinaryStream("vid_imagen"));
+                    resultado.setFecha(rs.getString("vid_fecha"));
+                    resultado.setVisitas(rs.getInt("vid_visitas"));
+
+                    listaVideos.add(resultado);
+
+                }
+
+
+            return gson.toJson(listaVideos);
+
+        } catch (Exception e) {
+
+            return e.getMessage();
+
+        }
+
+
+    }
+
+
     /**
      * Metodo que crea el conector de la base de datos
      * @return un conector para hacer llamadas a la BD
@@ -191,12 +247,15 @@ public class ServicesM02 {
     }
 
 
+
+
     /**
      * Metodo que dado un nombre de usuario devuelve
      * la id correspondiente
      * @param user
      * @return
      */
+
     public int obtenerUserId( String user){
 
 
