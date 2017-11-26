@@ -170,18 +170,28 @@ public class ServicesM02 {
      */
     public String busquedaVideos (@QueryParam("parametroBusqueda")  String parametroBusqueda)
     {
-        //Consulta por titulo y por Categoria
-        String query  = "SELECT  video.*,categoria.cat_valor " +
-                        "FROM video, categoria, video_cat " +
-                        "WHERE video.vid_titulo LIKE '%"+parametroBusqueda+"%'  " +
-                        "AND video.vid_id=video_cat.idvid AND categoria.cat_id=video_cat.idcat " +
+        //Consulta por:
+            // 1._Titulo
+            // 2._Categoria
+            // 3._Etiqueta
+
+        String query  = "SELECT  video.* " +
+                        "FROM    video, categoria, video_cat " +
+                        "WHERE   video.vid_titulo LIKE '%"+parametroBusqueda+"%'" +
+                                 "AND video.vid_id=video_cat.idvid " +
+                                 "AND categoria.cat_id=video_cat.idcat " +
                         "UNION " +
-                        "SELECT video.*,categoria.cat_valor " +
-                        "FROM video,categoria,video_cat " +
-                        "WHERE categoria.cat_valor LIKE '%"+parametroBusqueda+"%'  " +
-                        "AND video.vid_id=video_cat.idvid AND categoria.cat_id=video_cat.idcat";
-
-
+                        "SELECT  video.* " +
+                        "FROM    video,categoria,video_cat " +
+                        "WHERE  categoria.cat_valor LIKE '%"+parametroBusqueda+"%'  " +
+                                 "AND video.vid_id=video_cat.idvid " +
+                                 "AND categoria.cat_id=video_cat.idcat " +
+                        "UNION " +
+                        "SELECT  video.*" +
+                        "FROM    video,etiqueta,video_etiq " +
+                        "WHERE   etiqueta.eti_valor LIKE '%"+parametroBusqueda+"%' " +
+                                 "AND video.vid_id=video_etiq.idvid " +
+                                 "AND etiqueta.eti_id=video_etiq.idetiq";
         try{
             Connection conn = conectarADb();
             //Lista del objeto video para almacenar todos los videos a cargar
@@ -198,7 +208,7 @@ public class ServicesM02 {
                     resultado.setImagen(rs.getBinaryStream("vid_imagen"));
                     resultado.setFecha(rs.getString("vid_fecha"));
                     resultado.setVisitas(rs.getInt("vid_visitas"));
-                    resultado.set_valorCategoria(rs.getString("cat_valor"));
+
                     listaVideos.add(resultado);
 
                 }
